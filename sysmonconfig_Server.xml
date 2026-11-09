@@ -556,7 +556,6 @@
 		<!--DATA: UtcTime, ProcessGuid, ProcessId, Image, TargetFilename, CreationUtcTime-->
 	<RuleGroup name="" groupRelation="or">
 		<FileCreate onmatch="include">
-			<TargetFilename condition="begin with">D:\ExchangeDB</TargetFilename>
 			<Rule groupRelation="and">
 				<TargetFilename condition="begin with">C:\inetpub\wwwroot</TargetFilename>
 				<TargetFilename condition="contains any">.xls;.ppt;.rtf;.jsp;.jsw;.jsv;.do;.php;.phd;.html;.phtml;.inc;.php2;.php3;.php4;.php5;.php6;.php7;.phps;.pht;.phtm;.pgif;.shtml;.htaccess;.phar;.asp;.aspx;.asmx;.ashx;.ascx;.asax;.config;.cshtm;.cshtml;.vbhtm;.vbhtml;.pl;.com;.bat;.exe;.reg;.ps1;.vbs;.vba;.lnk;.doc;.xls;.hta;.bin;.7z;.dll;.xla;.cmd;.sh;.lnk;.pptm;.scr;.msi;.sct;.txt</TargetFilename>
